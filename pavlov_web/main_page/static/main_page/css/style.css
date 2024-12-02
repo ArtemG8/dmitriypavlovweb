@@ -327,30 +327,6 @@ body {
 
 
 
-@media (max-width: 780px) {
-
-    .history-holder {
-        display: block;
-
-    }
-
-    .menu-item {
-        width: auto;
-    }
-
-    .high {
-        display: none;
-    }
-
-    .container {
-        margin: auto 40px;
-    }
-
-    .number-item {
-        font-size: 23px;
-    }
-
-}
 
 
 *,
