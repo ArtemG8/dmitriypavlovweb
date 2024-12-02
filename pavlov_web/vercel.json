@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "pavlov_web/wsgi.py",
+      "src": "manage.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "pavlov_web/wsgi.py"
+      "dest": "manage.py"
     }
   ]
 }
