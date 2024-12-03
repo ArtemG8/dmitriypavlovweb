@@ -10,7 +10,12 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "pavlov_web/wsgi.py"
+      "dest": "pavlov_web/wsgi.py",
     }
+  ],
+
+  "rewrites": [
+    { "source": "/css/(.*)", "destination": "/css/\$1" }
   ]
 }
+
