@@ -310,6 +310,14 @@ body {
     color: #fff;
     text-align: center;
 }
+.footer a {
+    color:#7000BE ; /* Цвет по умолчанию */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.footer a:hover {
+    color: #44224b; /* Цвет при наведении */
+}
 
 
 *,
