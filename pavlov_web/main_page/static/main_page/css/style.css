@@ -17,8 +17,6 @@ body {
 
 }
 
-
-
 .logo {
     position: relative ;
     width: 12%; /* Гибкость – наше всё */
@@ -50,8 +48,6 @@ body {
     color: #42aaff;
 }
 
-
-
 .tg-img { /*лого тг*/
     position: relative ;
     width: 23%; /* Гибкость – наше всё */
@@ -61,8 +57,6 @@ body {
     left: -70px;
 
 }
-
-
 
 .button {
     background-color: #ffde00;
@@ -102,11 +96,7 @@ body {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     bottom: 100px;
-
-
 }
-
-
 
 .header-button {
     background-color: #140F0B;
@@ -210,7 +200,6 @@ body {
    top: 30px;
    left: 100px
 
-
 }
 
 .logo-1 {
@@ -299,6 +288,7 @@ body {
 .video-item iframe {
     border-radius: 10px; /* Установите желаемое значение радиуса */
     overflow: hidden; /* Это поможет скрыть любые выступающие части */
+
 }
 
 .video-preview {
@@ -322,37 +312,6 @@ body {
 }
 
 
-
-
-
-
-
-@media (max-width: 780px) {
-
-    .history-holder {
-        display: block;
-
-    }
-
-    .menu-item {
-        width: auto;
-    }
-
-    .high {
-        display: none;
-    }
-
-    .container {
-        margin: auto 40px;
-    }
-
-    .number-item {
-        font-size: 23px;
-    }
-
-}
-
-
 *,
 *::before,
 *::after {
@@ -366,7 +325,91 @@ html {
 }
 
 
+@media (max-width:1500px){
 
+
+}
+
+@media (max-width:1040px){
+.body-img {
+    position: relative ;
+    width: 55%; /* Гибкость – наше всё */
+    height: auto%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    top: -4px;
+    left: 480px;
+
+}
+
+.tg-holder {
+    position: absolute;
+    left: 800px;
+    top: 40px;
+
+}
+.tg-img { /*лого тг*/
+    position: relative ;
+    width: 20%; /* Гибкость – наше всё */
+    height: auto%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    top: 45px;
+    left: -60px;
+
+}
+
+.social-medias { /*сделать что бы наведение они прыгали*/
+   position: relative;
+   width: 85%;
+   top: 30px;
+   left: 135px
+
+}
+
+.images-1 {
+    position: relative ;
+    border-radius: 10px;
+    width: 170%; /* Гибкость – наше всё */
+    height: auto;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 200px;
+    left: 0px;
+}
+
+.video-item iframe {
+    border-radius: 10px; /* Установите желаемое значение радиуса */
+    overflow: hidden; /* Это поможет скрыть любые выступающие части */
+    width: 900%;
+    height: 400%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+
+}
+
+.video-item {
+    margin-right: 260px; /* Отступ между видео */
+}
+
+.video-list {
+    position: relative ;
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 30px; /* Убираем отступы */
+    margin: 10px; /* Убираем отступы */
+    left: -100px;
+}
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:480){
+
+}
+
+@media (max-width:320px){
+
+}
 
 
 
