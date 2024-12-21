@@ -19,8 +19,8 @@ body {
 
 .logo {
     position: relative ;
-    width: 12%; /* Гибкость – наше всё */
-    height: auto;
+    min-width: 120px; /* Гибкость – наше всё */
+    max-width: 12%;
     object-fit: contain; /* Исключаем искажения пропорций */
     z-index: 1;
     top: 50px;
@@ -51,6 +51,7 @@ body {
 .tg-img { /*лого тг*/
     position: relative ;
     width: 23%; /* Гибкость – наше всё */
+    min-width:20%
     height: auto%;
     object-fit: contain; /* Исключаем искажения пропорций */
     top: 50px;
@@ -358,8 +359,9 @@ html {
 .tg-img { /*лого тг*/
     position: relative ;
     width: 20%; /* Гибкость – наше всё */
+    object-fit: unset
     height: auto%;
-    object-fit: contain; /* Исключаем искажения пропорций */
+    /*object-fit: contain; /* Исключаем искажения пропорций */
     top: 45px;
     left: -60px;
 
