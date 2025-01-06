@@ -83,27 +83,12 @@
                      <span>История</span>
                 </div>
 
-                <div class='history-desc'>
-                    Врач, блогер, нейросеть - всё это обо мне. Я стремлюсь помочь  узнать новое о вашем теле, сделать здоровье доступным и понятным для каждого.
-                </div>
 
 
-                <div class='statistics'>
-                    <div class='number-item'>
-                         <span>Просмотры</span> {{ statistics.viewCount| intcomma  }}
-                    </div>
 
-                    <div class='number-item'>
-                         <span>Подписчики</span> {{ statistics.subscriberCount }}
-                    </div>
 
-                </div>
 
-                <div class='social-medias'>
-                   <a href="https://www.youtube.com/@dmitriypavlovems"> <img class = 'logo-1' src="static/main_page/img/youtube.png"></a>
-                    <a href="https://t.me/PavlovDoctor"><img class = 'logo-2' src="static/main_page/img/socialTG.png"></a>
-                    <a href="https://www.tiktok.com/@dmitriypavlovems?lang=ru-RU"><img class = 'logo-3' src="static/main_page/img/tiktok.png"></a>
-                </div>
+
 
             </div>
 
@@ -115,6 +100,19 @@
 
 
         </div>
+        <div class='statistics'>
+                    <div class='number-item'>
+                         <span>Просмотры</span> {{ statistics.viewCount| intcomma  }}
+                    </div>
+
+                    <div class='number-item'>
+                         <span>Подписчики</span> {{ statistics.subscriberCount }}
+                    </div>
+
+                </div>
+        <div class='history-desc'>
+                    Врач, блогер, нейросеть - всё это обо мне. Я стремлюсь помочь  узнать новое о вашем теле, сделать здоровье доступным и понятным для каждого.
+                </div>
 
     </div>
 

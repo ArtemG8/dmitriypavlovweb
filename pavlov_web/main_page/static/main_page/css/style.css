@@ -333,12 +333,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-@media (max-width:1500px){
-
-
-}
-
 @media (max-width:1040px){
 .body-img {
     position: relative ;
@@ -409,15 +403,136 @@ html {
 
 }
 
-@media (max-width:768px){
+
+
+
+
+@media (max-width:700px){
+
+.logo {
+    position: relative ;
+    min-width: 80px; /* Гибкость – наше всё */
+    max-width: 10%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 50px;
+    left: -100px;
+}
+
+.header-down {
+    position: relative;
+    right: 70px;
+    top:100px;
 
 }
 
-@media (max-width:480){
+.header-btn1{
 
 }
 
-@media (max-width:320px){
+.header-btn2{
+    width: 150%;
+    position: relative;
+    right: 70px;
+}
+
+.body-img{
+    display: none;
+
+}
+
+
+
+.history-title {
+    display: none;
+    position: relative;
+    right: 400px;
+}
+
+.history-desc {
+
+    position: relative;
+    right: 100px;
+    top: 60px;
+    color: #979797;
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+}
+.statistics{
+    position: relative;
+    width: 80px;
+    right: 80px;
+    top: -200px;
+    display: flex; /* Используем flexbox для расположения элементов в ряд */
+    flex-direction: column; /* Указываем направление по горизонтали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+
+
+}
+
+.number-item {
+
+    margin: 10px; /* Добавляем отступы между элементами */
+}
+
+.images-1{
+    position: relative ;
+    border-radius: 10px;
+    width: 230px; /* Гибкость – наше всё */
+    height: auto;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 300px;
+    left: -60px;
+
+
+}
+.social-medias {
+
+   position: relative;
+   width: 290%;
+   top: -170px;
+   left: -20px;
+
+}
+
+.videos-header {
+   position: relative;
+   left: -35px;
+}
+
+
+.video-item iframe {
+
+    border-radius: 10px; /* Установите желаемое значение радиуса */
+    overflow: hidden; /* Это поможет скрыть любые выступающие части */
+    width: 200px;
+    height: 240px;
+    object-fit: contain; /* Исключаем искажения пропорций */
+
+}
+
+.video-item {
+
+    margin-right: 0px; /* Отступ между видео */
+}
+
+.video-list {
+    display: flex; /* Используем flexbox для расположения элементов в ряд */
+    flex-direction: column; /* Указываем направление по горизонтали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 30px; /* Убираем отступы */
+    margin: 10px; /* Убираем отступы */
+    right: 100px;
+}
+
+}
+
+
+
+
 
 }
 
