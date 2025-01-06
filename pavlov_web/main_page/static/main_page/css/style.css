@@ -333,7 +333,96 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (max-width:1200px){
+
+@media (max-width:2500px){
+.body-img {
+    position: relative ;
+    width: 600px; /* Гибкость – наше всё */
+    height: auto%;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    top: -310px;
+    left: 500px;
+
+}
+
+.tg-holder {
+    position: absolute;
+    left: 800px;
+    top: 40px;
+
+}
+.tg-img { /*лого тг*/
+    position: relative ;
+    width: 20%; /* Гибкость – наше всё */
+    object-fit: unset
+    height: auto%;
+    /*object-fit: contain; /* Исключаем искажения пропорций */
+    top: 45px;
+    left: -60px;
+
+}
+
+.history-title {
+    position: relative;
+    top: 65px;
+}
+
+.statistics {
+    position:relative;
+    bottom: 150px;
+}
+
+.history-desc {
+    position:relative;
+    bottom: 110px;
+}
+
+.social-medias { /*сделать что бы наведение они прыгали*/
+   position: relative;
+   width: 85%;
+   top: 30px;
+   left: 135px
+
+}
+
+
+.images-1 {
+    position: relative ;
+    border-radius: 10px;
+    width: 400px; /* Гибкость – наше всё */
+    height: auto;
+    object-fit: contain; /* Исключаем искажения пропорций */
+    z-index: 1;
+    top: 300px;
+    left: 150px;
+}
+
+.video-item iframe {
+    border-radius: 10px; /* Установите желаемое значение радиуса */
+    overflow: hidden; /* Это поможет скрыть любые выступающие части */
+    width: 250px;
+    height: 500px;
+    object-fit: contain; /* Исключаем искажения пропорций */
+
+}
+
+.video-item {
+    margin-right: 30px; /* Отступ между видео */
+}
+
+.video-list {
+    position: relative ;
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 30px; /* Убираем отступы */
+    margin: 10px; /* Убираем отступы */
+    left: 10px;
+}
+
+}
+
+
+
+@media (max-width:1250px){
 .body-img {
     position: relative ;
     width: 420px; /* Гибкость – наше всё */
@@ -407,9 +496,6 @@ html {
 }
 
 }
-
-
-
 
 
 @media (max-width:950px){
