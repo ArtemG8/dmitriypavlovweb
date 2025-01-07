@@ -31,14 +31,14 @@
                 <img class='logo' src="static/main_page/img/logo.png" alt="">
             </div>
 
-<!--            <div class='tg'>-->
-<!--                <div class='tg-holder'>-->
-<!--                    <div class='tgmain-img'>-->
-<!--                        <img class ='tg-img' src="static/main_page/img/tg.png" alt=" ">-->
-<!--                    </div>-->
-<!--                    <div><a class='tg-text' href='https://t.me/PavlovDoctor'> Мой Телеграм</a></div>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class='tg'>
+                <div class='tg-holder'>
+                    <div class='tgmain-img'>
+                        <img class ='tg-img' src="static/main_page/img/tg.png" alt=" ">
+                    </div>
+                    <div><a class='tg-text' href='https://t.me/PavlovDoctor'> Мой Телеграм</a></div>
+                </div>
+            </div>
         </div>
 
         <div class='header-down'>
@@ -60,10 +60,9 @@
                 </section>
             </div>
 
-            <div class = 'header-img'>
+            <div class = 'header-img'> <!--фотка тела дмитрия-->
                     <img class ='body-img' src="static/main_page/img/body.png" alt=" ">
             </div>
-
 
         </div>
 
@@ -82,22 +81,9 @@
                 <div class='history-title'>
                      <span>История</span>
                 </div>
-
-
-
-
-<!--                <div class='social-medias'>-->
-<!--                   <a href="https://www.youtube.com/@dmitriypavlovems"> <img class = 'logo-1' src="static/main_page/img/youtube.png"></a>-->
-<!--                    <a href="https://t.me/PavlovDoctor"><img class = 'logo-2' src="static/main_page/img/socialTG.png"></a>-->
-<!--                    <a href="https://www.tiktok.com/@dmitriypavlovems?lang=ru-RU"><img class = 'logo-3' src="static/main_page/img/tiktok.png"></a>-->
-<!--                </div>-->
-
-
-
             </div>
 
-
-            <div class='pavlov-images'>
+            <div class='pavlov-images'> <!--фотография дмитрия на стуле-->
                 <img class='images-1' src="static/main_page/img/dp1.png" alt="">
             </div>
 
@@ -116,7 +102,7 @@
                 </div>
         <div class='history-desc'>
                     Врач, блогер, нейросеть - всё это обо мне. Я стремлюсь помочь  узнать новое о вашем теле, сделать здоровье доступным и понятным для каждого.
-                </div>
+        </div>
 
     </div>
 
@@ -130,7 +116,8 @@
         </div>
 
         <div class="videos_frame">
-    <ul class="video-list">
+
+    <ul class="video-list"> <!--вывод превью видео-->
         {% for video in videos %}
         <li class="video-item">
             <iframe class="video-preview" width="280" height="500" src="https://www.youtube.com/embed/{{ video.resourceId.videoId }}" frameborder="0" allowfullscreen></iframe>
@@ -150,11 +137,14 @@
 
 <div class='footer'>
    По сотрудничеству - <a href="mailto:dmitriypavlov911@gmail.com">dmitriypavlov911@gmail.com</a>
+
+                    <div class='social-medias'> <!--иконки соц.сетей-->
+                   <a href="https://www.youtube.com/@dmitriypavlovems"> <img class = 'logo-1' src="static/main_page/img/youtube.png"></a>
+                    <a href="https://t.me/PavlovDoctor"><img class = 'logo-2' src="static/main_page/img/socialTG.png"></a>
+                    <a href="https://www.tiktok.com/@dmitriypavlovems?lang=ru-RU"><img class = 'logo-3' src="static/main_page/img/tiktok.png"></a>
+                </div>
+
 </div>
-
-
-
-
 
 </body>
 </html>
