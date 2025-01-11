@@ -17,7 +17,6 @@ def main(request):
     channel_url = f'https://www.googleapis.com/youtube/v3/channels?part=contentDetails,statistics&id={CHANNEL_ID}&key={API_KEY}'
     channel_response = requests.get(channel_url)
     channel_data = channel_response.json()
-    print((channel_data))
 
     # Проверка на наличие данных о канале
     if 'items' in channel_data and len(channel_data['items']) > 0:
