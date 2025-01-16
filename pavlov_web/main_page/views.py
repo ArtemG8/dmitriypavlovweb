@@ -1,20 +1,14 @@
+import os
 from django.shortcuts import render, HttpResponse, HttpResponseRedirect
 from django.http import JsonResponse
+from dotenv import load_dotenv
 import requests
 
-def tester():
-    pass
-
-
-import requests
-from django.shortcuts import render
 
 def main(request):
-    API_KEY = 'AIzaSyB94roF0VaB4CO9uFLN_xXNtPGhD7N0trg'
-    CHANNEL_ID = 'UCpeIpEAkt9rn-gmEi0h8-SA'
-
+    load_dotenv()
     # Получение информации о канале
-    channel_url = f'https://www.googleapis.com/youtube/v3/channels?part=contentDetails,statistics&id={CHANNEL_ID}&key={API_KEY}'
+    channel_url = f'https://www.googleapis.com/youtube/v3/channels?part=contentDetails,statistics&id={os.getenv("CHANNEL_ID")}&key={os.getenv("API_KEY")}'
     channel_response = requests.get(channel_url)
     channel_data = channel_response.json()
 
@@ -29,7 +23,7 @@ def main(request):
     # Получение видео из плейлиста загрузок
     videos = []
     if uploads_playlist_id:
-        videos_url = f'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={uploads_playlist_id}&maxResults=3&key={API_KEY}'
+        videos_url = f'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={uploads_playlist_id}&maxResults=3&key={os.getenv("API_KEY")}'
         videos_response = requests.get(videos_url)
         videos_data = videos_response.json()
 

@@ -47,7 +47,7 @@ body {
 
 .tg-img { /*лого тг*/
     position: relative ;
-    width: 23%; /* Гибкость – наше всё */
+    width: 23%; /* Гибкость  */
     min-width:20%
     height: auto%;
     object-fit: contain; /* Исключаем искажения пропорций */
@@ -113,7 +113,7 @@ body {
 
 .body-img {
     position: relative ;
-    width: 62%; /* Гибкость – наше всё */
+    width: 62%; /* Гибкость  */
     height: auto%;
     object-fit: contain; /* Исключаем искажения пропорций */
     top: -291px;
@@ -196,7 +196,7 @@ body {
 
 .logo-1 {
    position: relative;
-   width: 10%; /* Гибкость – наше всё */
+   width: 10%; /* Гибкость */
    height: auto;
    object-fit: contain; /* Исключаем искажения пропорций */
    margin-right: 15px;
@@ -204,7 +204,7 @@ body {
 
 .logo-2 {
    position: relative;
-   width: 9%; /* Гибкость – наше всё */
+   width: 9%; /* Гибкость  */
    height: auto;
    object-fit: contain; /* Исключаем искажения пропорций */
    margin-right: 15px;
@@ -212,7 +212,7 @@ body {
 
 .logo-3 {
    position: relative;
-   width: 9%; /* Гибкость – наше всё */
+   width: 9%; /* Гибкость  */
    height: auto;
    object-fit: contain; /* Исключаем искажения пропорций */
    margin-right: 15px;
@@ -230,7 +230,7 @@ body {
 .images-1 {
     position: relative ;
     border-radius: 10px;
-    width: 120%; /* Гибкость – наше всё */
+    width: 120%; /* Гибкость  */
     height: auto;
     object-fit: contain; /* Исключаем искажения пропорций */
     z-index: 1;
@@ -321,7 +321,7 @@ html {
 @media (max-width:2500px){ /*разрешение до телевизоров*/
 .body-img {
     position: relative ;
-    width: 600px; /* Гибкость – наше всё */
+    width: 600px; /* Гибкость  */
     height: auto%;
     object-fit: contain; /* Исключаем искажения пропорций */
     top: -310px;
@@ -335,7 +335,7 @@ html {
 }
 .tg-img { /*лого тг*/
     position: relative ;
-    width: 75px; /* Гибкость – наше всё */
+    width: 75px; /* Гибкость  */
     object-fit: unset
     height: auto%;
     /*object-fit: contain; /* Исключаем искажения пропорций */
@@ -368,7 +368,7 @@ html {
 .images-1 {
     position: relative ;
     border-radius: 10px;
-    width: 400px; /* Гибкость – наше всё */
+    width: 400px; /* Гибкость  */
     height: auto;
     object-fit: contain; /* Исключаем искажения пропорций */
     z-index: 1;
@@ -400,7 +400,7 @@ html {
 @media (max-width:1250px){ /*разрешение до маленькего ноутбука*/
 .body-img {
     position: relative ;
-    width: 420px; /* Гибкость – наше всё */
+    width: 420px; /* Гибкость  */
     height: auto%;
     object-fit: contain; /* Исключаем искажения пропорций */
     top: -70px;
@@ -415,7 +415,7 @@ html {
 
 .tg-img { /*лого тг*/
     position: relative ;
-    width: 90px; /* Гибкость – наше всё */
+    width: 90px; /* Гибкость  */
     object-fit: unset
     height: auto%;
     top: 80px;
@@ -437,7 +437,7 @@ html {
 .images-1 {
     position: relative ;
     border-radius: 10px;
-    width: 300px; /* Гибкость – наше всё */
+    width: 300px; /* Гибкость  */
     height: auto;
     object-fit: contain; /* Исключаем искажения пропорций */
     z-index: 1;
@@ -471,7 +471,7 @@ html {
 
 .logo {
     position: relative ;
-    min-width: 80px; /* Гибкость – наше всё */
+    min-width: 80px; /* Гибкость  */
     max-width: 10%;
     object-fit: contain; /* Исключаем искажения пропорций */
     z-index: 1;
@@ -486,7 +486,7 @@ html {
 }
 .tg-img { /*лого тг*/
     position: relative ;
-    width: 40px; /* Гибкость – наше всё */
+    width: 40px; /* Гибкость  */
     object-fit: unset
     height: auto%;
     top: 60px;
@@ -550,7 +550,7 @@ html {
 .images-1{
     position: relative ;
     border-radius: 10px;
-    width: 230px; /* Гибкость – наше всё */
+    width: 230px; /* Гибкость */
     height: auto;
     object-fit: contain; /* Исключаем искажения пропорций */
     z-index: 1;

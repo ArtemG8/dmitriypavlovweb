@@ -23,13 +23,11 @@
 <body>
 
 <div class='header'>
-
     <div class='container'>
         <div class='header-line'>
             <div class='header-logo'>
                 <img class='logo' src="static/main_page/img/logo.png" alt="">
             </div>
-
             <div class='tg'>
                 <div class='tg-holder'>
                     <div class='tgmain-img'>
@@ -46,7 +44,6 @@
 
                 <div class='header-subtitle'>
                     Ваш Нейро-Врач
-
                 </div>
 
 
@@ -62,15 +59,9 @@
             <div class = 'header-img'> <!--фотка тела дмитрия-->
                     <img class ='body-img' src="static/main_page/img/body.png" alt=" ">
             </div>
-
         </div>
-
     </div>
-
 </div>
-
-
-
 
 <div class='history'>
     <div class='container'>
@@ -85,10 +76,8 @@
             <div class='pavlov-images'> <!--фотография дмитрия на стуле-->
                 <img class='images-1' src="static/main_page/img/dp1.png" alt="">
             </div>
-
-
-
         </div>
+
         <div class='statistics'>
                     <div class='number-item'>
                          <span>Просмотры</span> {{ statistics.viewCount| intcomma  }}
@@ -97,14 +86,12 @@
                     <div class='number-item'>
                          <span>Подписчики</span> {{ statistics.subscriberCount }}
                     </div>
-
                 </div>
+
         <div class='history-desc'>
                     Врач, блогер, нейросеть - всё это обо мне. Я стремлюсь помочь  узнать новое о вашем теле, сделать здоровье доступным и понятным для каждого.
         </div>
-
     </div>
-
 </div>
 <section id="aboutvideos" class="aboutme"></section>
 <div class = 'videos'>
@@ -115,13 +102,15 @@
         </div>
 
         <div class="videos_frame">
-
     <ul class="video-list"> <!--вывод превью видео-->
         {% for video in videos %}
+
         <li class="video-item">
             <iframe class="video-preview" width="280" height="500" src="https://www.youtube.com/embed/{{ video.resourceId.videoId }}" frameborder="0" allowfullscreen></iframe>
         </li>
+
         {% endfor %}
+
     </ul>
         </div>
     </div>
